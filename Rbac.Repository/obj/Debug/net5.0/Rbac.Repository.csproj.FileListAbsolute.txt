@@ -1,0 +1,15 @@
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\bin\Debug\net5.0\Rbac.Repository.deps.json
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\bin\Debug\net5.0\Rbac.Repository.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\bin\Debug\net5.0\Rbac.Repository.pdb
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\bin\Debug\net5.0\Rbac.Entity.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\bin\Debug\net5.0\Rbac.Entity.pdb
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.csproj.AssemblyReference.cache
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.AssemblyInfoInputs.cache
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.AssemblyInfo.cs
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.csproj.CoreCompileInputs.cache
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.csproj.CopyComplete
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\refint\Rbac.Repository.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\Rbac.Repository.pdb
+D:\专高六\作业\Day1\wwwroot\Rbac.Repository\obj\Debug\net5.0\ref\Rbac.Repository.dll
