@@ -15,6 +15,9 @@ using Microsoft.EntityFrameworkCore;
 using Rbac.Entity;
 using Rbac.Application;
 using Rbac.Repository;
+using Rbac.Application.Roles;
+using Rbac.Repository.Roles;
+using System.Reflection;
 
 namespace Rbac.WebAPI
 {
@@ -32,6 +35,7 @@ namespace Rbac.WebAPI
         {
 
             services.AddControllers();
+            services.AddAutoMapper(Assembly.Load("Rbac.Application"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rbac.WebAPI", Version = "v1" });
@@ -55,6 +59,8 @@ namespace Rbac.WebAPI
             //зЂВс
             services.AddScoped<IMenuRepository, MenuRepository>();
             services.AddScoped<IMenuService, MenuService>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IRoleService, RoleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -38,11 +38,6 @@ namespace Rbac.Repository
             Context.Entry(menu).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             return Context.SaveChanges();
         }
-
-        public Menu Back(int id)
-        {
-            return Context.Menus.Find(id);
-        }
     }
     
 }

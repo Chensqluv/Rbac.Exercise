@@ -60,19 +60,10 @@ namespace Rbac.WebAPI.Controllers
         /// </summary>
         /// <param name="menu"></param>
         /// <returns></returns>
-        [HttpPut]
+        [HttpPost]
         public int UpdateMenu(Menu menu)
         {
             return Service.UpdateMenu(menu);
-        }
-        /// <summary>
-        /// 根据id获取单个菜单信息
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        public Menu Back(int id)
-        {
-            return Service.Back(id);
         }
     }
 }

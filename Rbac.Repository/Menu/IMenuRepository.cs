@@ -13,7 +13,5 @@ namespace Rbac.Repository
         int DeleteMenu(int id);
 
         int UpdateMenu(Menu menu);
-
-        Menu Back(int id);
     }
 }
