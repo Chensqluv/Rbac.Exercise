@@ -105,10 +105,5 @@ namespace Rbac.Application
         {
             return Menu.UpdateMenu(menu);
         }
-
-        public Menu Back(int id)
-        {
-            return Menu.Back(id);
-        }
     }
 }

@@ -30,7 +30,7 @@ namespace Rbac.Entity
         ///<summary>
         ///末次登录时间
         ///</summary>
-        public DateTime LastLoginTime { get; set; }
+        public DateTime? LastLoginTime { get; set; }
 
         ///<summary>
         ///末次登录IP

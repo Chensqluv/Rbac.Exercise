@@ -11,6 +11,5 @@ namespace Rbac.Application
         int AddMenu(Menu menu);
         int DeleteMenu(int id);
         int UpdateMenu(Menu menu);
-        Menu Back(int id);
     }
 }

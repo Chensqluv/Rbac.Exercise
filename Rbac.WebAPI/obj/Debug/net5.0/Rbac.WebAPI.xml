@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rbac.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Rbac.WebAPI.Controllers.AdminController.Register(Rbac.Application.Admins.Dto.AdminDto)">
+            <summary>
+            注册
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.AdminController.Login(Rbac.Application.Admins.Dto.LoginDto)">
+            <summary>
+            登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.GetAll">
+            <summary>
+            获取菜单信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.GetList">
+            <summary>
+            获取菜单下拉框信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.AddMenu(Rbac.Entity.Menu)">
+            <summary>
+            添加菜单信息
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.DeleteMenu(System.Int32)">
+            <summary>
+            删除菜单信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.UpdateMenu(Rbac.Entity.Menu)">
+            <summary>
+            修改菜单信息
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

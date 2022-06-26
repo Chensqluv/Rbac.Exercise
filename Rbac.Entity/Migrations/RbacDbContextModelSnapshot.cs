@@ -44,11 +44,10 @@ namespace Rbac.Entity.Migrations
                         .HasColumnType("tinyint");
 
                     b.Property<string>("LastLoginIP")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateTime>("LastLoginTime")
+                    b.Property<DateTime?>("LastLoginTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Password")

@@ -21,7 +21,6 @@ D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.Identity
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -64,3 +63,17 @@ D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Rbac.Application.d
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Rbac.Repository.dll
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Rbac.Application.pdb
 D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Rbac.Repository.pdb
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Rbac.WebAPI.xml
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\obj\Debug\net5.0\Rbac.WebAPI.xml
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\IdentityModel.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Scrutor.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Filters.dll
+D:\专高六\作业\Day1\wwwroot\Rbac.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
