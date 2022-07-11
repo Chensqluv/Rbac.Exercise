@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rbac.WebAPI", "Rbac.WebAPI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rbac.Entity", "Rbac.Entity\Rbac.Entity.csproj", "{9724FC8B-9FDC-4237-9C7D-632AF995FF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbac.Application", "Rbac.Application\Rbac.Application.csproj", "{45974FF2-48F4-4335-8169-D110C06D4AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rbac.Application", "Rbac.Application\Rbac.Application.csproj", "{45974FF2-48F4-4335-8169-D110C06D4AB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rbac.Repository", "Rbac.Repository\Rbac.Repository.csproj", "{24A3E838-0CE8-448F-8C12-3B47550F38E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rbac.Repository", "Rbac.Repository\Rbac.Repository.csproj", "{24A3E838-0CE8-448F-8C12-3B47550F38E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{556C78AC-27DA-443B-8165-8D19BF279ECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{24A3E838-0CE8-448F-8C12-3B47550F38E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24A3E838-0CE8-448F-8C12-3B47550F38E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24A3E838-0CE8-448F-8C12-3B47550F38E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556C78AC-27DA-443B-8165-8D19BF279ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556C78AC-27DA-443B-8165-8D19BF279ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556C78AC-27DA-443B-8165-8D19BF279ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556C78AC-27DA-443B-8165-8D19BF279ECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
