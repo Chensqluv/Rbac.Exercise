@@ -18,6 +18,14 @@
             <param name="dto"></param>
             <returns></returns>
         </member>
+        <member name="M:Rbac.WebAPI.Controllers.AdminController.Page(System.Int32,System.Int32)">
+            <summary>
+            分页显示数据
+            </summary>
+            <param name="Pindex"></param>
+            <param name="Psize"></param>
+            <returns></returns>
+        </member>
         <member name="M:Rbac.WebAPI.Controllers.MenuController.GetAll">
             <summary>
             获取菜单信息
@@ -49,6 +57,12 @@
             修改菜单信息
             </summary>
             <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebAPI.Controllers.MenuController.ShowMenus">
+            <summary>
+            菜单显示
+            </summary>
             <returns></returns>
         </member>
     </members>

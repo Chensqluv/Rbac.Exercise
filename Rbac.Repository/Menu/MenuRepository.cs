@@ -39,5 +39,5 @@ namespace Rbac.Repository
             return Context.SaveChanges();
         }
     }
-    
+
 }

@@ -6,10 +6,11 @@ namespace Rbac.Application
 {
     public interface IMenuService
     {
-        List<MenuDto> GetAll();
+        List<MenuDto> GetShowMenus();
         List<CascaderDto> GetList();
         int AddMenu(Menu menu);
         int DeleteMenu(int id);
         int UpdateMenu(Menu menu);
+        List<Menu> ShowMenus();
     }
 }

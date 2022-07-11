@@ -76,6 +76,14 @@ namespace Rbac.Application.Admins
             return new TokenDto { Code = 0, Msg = "登录成功", Token = jwt };
         }
 
+        public Tuple<List<AdminListDto>, int> Page(int Pindex = 1, int Psize = 2)
+        {
+            var list = mapper.Map<List<AdminListDto>>(AdminRepository.GetQuery().OrderBy(m => m.AdminId).Skip((Pindex - 1) * Psize).Take(Psize).ToList());
+
+            var Total = AdminRepository.GetQuery().Count();
+            return new Tuple<List<AdminListDto>,int>(list, Total);
+        }
+
         public ResultDto Register(AdminDto dto)
         {
             if (AdminRepository.GetEntity(m => m.UserName == dto.UserName.Trim().ToUpper()) != null)

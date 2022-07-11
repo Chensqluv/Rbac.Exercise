@@ -10,6 +10,8 @@ namespace Rbac.Application.Roles
 {
     public interface IRoleService:IBaseService<Role,RoleDto>
     {
+        int SavePermission(PerDto per);
 
+        List<MenuRoleDto> GetByRoleId(int roleId);
     }
 }

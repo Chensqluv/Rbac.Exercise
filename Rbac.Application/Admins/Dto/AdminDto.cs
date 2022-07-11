@@ -36,4 +36,35 @@ namespace Rbac.Application.Admins.Dto
         /// </summary>
         public DateTime CreateTime { get; set; }
     }
+
+    public class AdminListDto
+    {
+        ///<summary>
+        ///管理员Id
+        ///</summary>
+        public long AdminId { get; set; }
+
+        ///<summary>
+        ///用户名
+        ///</summary>
+        public string UserName { get; set; }
+
+        ///<summary>
+        ///邮箱
+        ///</summary>
+        public string Email { get; set; }
+
+        ///<summary>
+        ///邮箱
+        ///</summary>
+        public bool IsLock { get; set; }
+        ///<summary>
+        ///末次登录时间
+        ///</summary>
+        public DateTime? LastLoginTime { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string CreateTime { get; set; }
+    }
 }

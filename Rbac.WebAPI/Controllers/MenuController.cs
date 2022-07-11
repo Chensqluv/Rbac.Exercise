@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Rbac.Application;
 using Rbac.Entity;
@@ -8,6 +9,7 @@ namespace Rbac.WebAPI.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Authorize]
     public class MenuController : ControllerBase
     {
         public MenuController(IMenuService service)
@@ -24,7 +26,7 @@ namespace Rbac.WebAPI.Controllers
         [HttpGet]
         public List<MenuDto> GetAll()
         {
-            return Service.GetAll();
+            return Service.GetShowMenus();
         }
         /// <summary>
         /// 获取菜单下拉框信息
@@ -64,6 +66,16 @@ namespace Rbac.WebAPI.Controllers
         public int UpdateMenu(Menu menu)
         {
             return Service.UpdateMenu(menu);
+        }
+        /// <summary>
+        /// 菜单显示
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [AllowAnonymous]
+        public List<Menu> ShowMenus()
+        {
+            return Service.ShowMenus();
         }
     }
 }

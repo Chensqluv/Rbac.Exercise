@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
 namespace Rbac.Application
 {
-    public class MenuCreateDto
+    public class MenuDto
     {
         public int MenuId { get; set; }
         public string MenuName { get; set; }
         public string LinkUrl { get; set; }
-        public int ParentId { get; set; }
+        public List<MenuDto> children { get; set; } = new List<MenuDto>();
     }
 }

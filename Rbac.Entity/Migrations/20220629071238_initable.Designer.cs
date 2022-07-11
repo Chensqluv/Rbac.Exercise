@@ -10,8 +10,8 @@ using Rbac.Entity;
 namespace Rbac.Entity.Migrations
 {
     [DbContext(typeof(RbacDbContext))]
-    [Migration("20220626123857_newtable")]
-    partial class newtable
+    [Migration("20220629071238_initable")]
+    partial class initable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

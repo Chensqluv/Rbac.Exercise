@@ -17,7 +17,7 @@ namespace Rbac.Repository
         TEntity GetEntity(Expression<Func<TEntity, bool>> predicate);
         TEntity GetEntity(TKey key);
         List<TEntity> GetList(Expression<Func<TEntity, bool>> predicate);
-        IQueryable<TEntity> GetQuery(Expression<Func<TEntity, bool>> predicate);
+        IQueryable<TEntity> GetQuery(Expression<Func<TEntity, bool>> predicate = null);
         int Update(TEntity entity);
 
     }

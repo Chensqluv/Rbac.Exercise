@@ -3,6 +3,7 @@ using Rbac.Entity;
 using System.Collections.Generic;
 using Rbac.Repository;
 using System.Linq;
+using AutoMapper;
 
 namespace Rbac.Application
 {
@@ -15,7 +16,7 @@ namespace Rbac.Application
 
         public IMenuRepository Menu { get; }
 
-        public List<MenuDto> GetAll()
+        public List<MenuDto> GetShowMenus()
         {
             var list = Menu.GetAll();
 
@@ -104,6 +105,11 @@ namespace Rbac.Application
         public int UpdateMenu(Menu menu)
         {
             return Menu.UpdateMenu(menu);
+        }
+
+        public List<Menu> ShowMenus()
+        {
+            return Menu.GetAll().ToList();
         }
     }
 }

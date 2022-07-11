@@ -57,8 +57,8 @@ namespace Rbac.Repository
         }
         public virtual int Delete(Expression<Func<TEntity, bool>> predicate)
         {
-            var entity = db.Set<TEntity>().Where(predicate);
-            db.Remove(entity);
+            var entity = db.Set<TEntity>().Where(predicate).ToList();
+            db.RemoveRange(entity);
             return db.SaveChanges();
         }
         /// <summary>
@@ -101,7 +101,7 @@ namespace Rbac.Repository
         /// 获取全部数据
         /// </summary>
         /// <returns></returns>
-        public virtual IQueryable<TEntity> GetQuery(Expression<Func<TEntity, bool>> predicate)
+        public virtual IQueryable<TEntity> GetQuery(Expression<Func<TEntity, bool>> predicate = null)
         {
             return db.Set<TEntity>().Where(predicate);
         }

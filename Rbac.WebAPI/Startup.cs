@@ -25,6 +25,8 @@ using System.Text;
 using Swashbuckle.AspNetCore.Filters;
 using Rbac.Application.Admins;
 using Rbac.Repository.Admins;
+using Rbac.Repository.MenuRoles;
+using Rbac.Repository.AdminRoles;
 
 namespace Rbac.WebAPI
 {
@@ -87,6 +89,8 @@ namespace Rbac.WebAPI
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<IAdminRepository, AdminRepository>();
             services.AddScoped<IAdminService, AdminService>();
+            services.AddScoped<IMrRespository, MrRespository>();
+            services.AddScoped<IArRepository, ArRepository>();
 
             services.AddAuthentication(option =>
             {
